@@ -1,0 +1,6 @@
+{
+  "name": "Bunny Run: Purple Adventure",
+  "description": "Game 2D platformer lucu bertema ungu dengan kelinci menggemaskan, platform, koin, rintangan, dan musuh Purple Slime.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

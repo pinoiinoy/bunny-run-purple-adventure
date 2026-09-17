@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@keyframes pulsePlay {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px rgba(236, 72, 153, 0.45);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 16px 35px rgba(236, 72, 153, 0.65);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.15s ease-out forwards;
+}
+
+.animate-pulse-play {
+  animation: pulsePlay 2.4s ease-in-out infinite;
+}
+
+.drop-shadow-title {
+  filter: drop-shadow(0 4px 0 #581C87) drop-shadow(0 8px 16px rgba(76, 29, 149, 0.45));
+}
